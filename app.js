@@ -41144,9 +41144,9 @@ var Game =
                     case 7:
                     case 8:
                         if (!document.disableTowerSprite) {
-                            this.base = new SpriteEntity_1.default(`./zombs-server-spots/cannon-tower-t${tier}-base.svg`);
-                            this.name !== "mage-tower" && (this.head = new SpriteEntity_1.default(`./zombs-server-spots/${this.name}-t${tier}-head.svg`));
-                            this.name == "mage-tower" && (this.head = new SpriteEntity_1.default(`./zombs-server-spots/${this.name}-t${1}-head.svg`));
+                            this.base = new SpriteEntity_1.default(`./cannon-tower-t${tier}-base.svg`);
+                            this.name !== "mage-tower" && (this.head = new SpriteEntity_1.default(`./${this.name}-t${tier}-head.svg`));
+                            this.name == "mage-tower" && (this.head = new SpriteEntity_1.default(`./${this.name}-t${1}-head.svg`));
                         } else {
                             this.base = new SpriteEntity_1.default(`./asset`);
                             this.head = new SpriteEntity_1.default(`./asset`);
@@ -41870,7 +41870,7 @@ var Game =
             function DoorModel() {
                 var _this = _super.call(this) || this;
                 _this.currentTier = 1;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/door-t1-base.svg');
+                _this.base = new SpriteEntity_1.default('./door-t1-base.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.healthBar.setSize(35, 10);
                 //_this.healthBar.setPivotPoint(35 / 2, -8);
@@ -41904,7 +41904,7 @@ var Game =
                     case 6:
                     case 7:
                     case 8:
-                        !document.disableTowerSprite && (this.base = new SpriteEntity_1.default(`./zombs-server-spots/door-t${this.currentTier}-base.svg`));
+                        !document.disableTowerSprite && (this.base = new SpriteEntity_1.default(`./door-t${this.currentTier}-base.svg`));
                         document.disableTowerSprite && (this.base = new SpriteEntity_1.default(`./asset`));
                         break;
                     default:
@@ -42154,7 +42154,7 @@ var Game =
                 var _this = _super.call(this) || this;
                 _this.currentTier = 1;
                 _this.currentRotation = 0;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/entities-gold-mine.svg');
+                _this.base = new SpriteEntity_1.default('./entities-gold-mine.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.healthBar.setSize(82, 16);
                 //_this.healthBar.setPivotPoint(82 / 2, -25);
@@ -42191,8 +42191,8 @@ var Game =
                     case 7:
                     case 8:
                         if (!document.disableTowerSprite) {
-                            this.base = new SpriteEntity_1.default(`./zombs-server-spots/cannon-tower-t${this.currentTier}-base.svg`);
-                            this.head = new SpriteEntity_1.default(`./zombs-server-spots/gold-mine-t${this.currentTier}-head.svg`);
+                            this.base = new SpriteEntity_1.default(`./cannon-tower-t${this.currentTier}-base.svg`);
+                            this.head = new SpriteEntity_1.default(`./gold-mine-t${this.currentTier}-head.svg`);
                         } else {
                             this.base = new SpriteEntity_1.default(`./asset`);
                             this.head = new SpriteEntity_1.default(`./asset`);
@@ -42241,7 +42241,7 @@ var Game =
             function GoldStashModel() {
                 var _this = _super.call(this) || this;
                 _this.currentTier = 1;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/entities-gold-stash.svg');
+                _this.base = new SpriteEntity_1.default('./entities-gold-stash.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.healthBar.setSize(82, 16);
                 //_this.healthBar.setPivotPoint(82 / 2, -25);
@@ -42275,7 +42275,7 @@ var Game =
                     case 7:
                     case 8:
                         if (!document.disableTowerSprite) {
-                            this.base = new SpriteEntity_1.default(`./zombs-server-spots/gold-stash-t${this.currentTier}-base.svg`);
+                            this.base = new SpriteEntity_1.default(`./gold-stash-t${this.currentTier}-base.svg`);
                         } else {
                             this.base = new SpriteEntity_1.default(`./asset`);
                         }
@@ -42405,10 +42405,10 @@ var Game =
                     case 6:
                     case 7:
                     case 8:
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/cannon-tower-t${this.currentTier}-base.svg`);
-                        this.head = new SpriteEntity_1.default(`./zombs-server-spots/harvester-t${this.currentTier}-head.svg`);
+                        this.base = new SpriteEntity_1.default(`./cannon-tower-t${this.currentTier}-base.svg`);
+                        this.head = new SpriteEntity_1.default(`./harvester-t${this.currentTier}-head.svg`);
                         this.head.setPivotPoint(10, 0);
-                        this.claw = new SpriteEntity_1.default(`./zombs-server-spots/harvester-t${this.currentTier}-claw.svg`);
+                        this.claw = new SpriteEntity_1.default(`./harvester-t${this.currentTier}-claw.svg`);
                         this.claw.setPivotPoint(0, this.claw.getNode().height / 2);
                         this.pivotPointFar = new DrawEntity_1.default();
                         this.pivotPointFar.drawCircle(0, 0, 8, Util_1.default.hexToRgb(this.colorMapping[this.currentTier].pivot), { r: 51, g: 51, b: 51 }, 5);
@@ -42805,11 +42805,11 @@ var Game =
                     case 6:
                     case 7:
                     case 8:
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/cannon-tower-t${this.currentTier}-base.svg`);
-                        this.middle = new SpriteEntity_1.default(`./zombs-server-spots/melee-tower-t${this.currentTier}-middle.svg`);
+                        this.base = new SpriteEntity_1.default(`./cannon-tower-t${this.currentTier}-base.svg`);
+                        this.middle = new SpriteEntity_1.default(`./melee-tower-t${this.currentTier}-middle.svg`);
                         this.middle.setAnchor(0, 0.5);
                         this.middle.setPositionY(32);
-                        this.head = new SpriteEntity_1.default(`./zombs-server-spots/melee-tower-t${this.currentTier}-head.svg`);
+                        this.head = new SpriteEntity_1.default(`./melee-tower-t${this.currentTier}-head.svg`);
                         this.head.setAnchor(0, 0.5);
                         this.head.setPositionY(36);
                         break;
@@ -42875,7 +42875,7 @@ var Game =
             __extends(NeutralCampModel, _super);
             function NeutralCampModel() {
                 var _this = _super.call(this) || this;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/neutral-camp-base.svg');
+                _this.base = new SpriteEntity_1.default('./neutral-camp-base.svg');
                 _this.addAttachment(_this.base);
                 return _this;
             }
@@ -42932,8 +42932,8 @@ var Game =
                     if (isNaN(tier) || tier === 0) {
                         throw new Error('Invalid neutral tier received: ' + tick.model);
                     }
-                    this.base = new SpriteEntity_1.default("./zombs-server-spots/neutral-t1-base.svg");
-                    this.weapon = new SpriteEntity_1.default('./zombs-server-spots/neutral-t1-weapon.svg');
+                    this.base = new SpriteEntity_1.default("./neutral-t1-base.svg");
+                    this.weapon = new SpriteEntity_1.default('./neutral-t1-weapon.svg');
                     this.weapon.setAnchor(0.5, 1);
                     this.weaponUpdateFunc = this.updateSwingingWeapon(300, 100);
                 }
@@ -43074,15 +43074,15 @@ var Game =
                 this.removeAttachment(this.weapon);
                 if (tick.model.indexOf('PetCARL') > -1) {
                     var tier = tick.tier;
-                    this.base = new SpriteEntity_1.default(`./zombs-server-spots/pet-carl-t${tier}-base.svg`);
-                    this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/pet-carl-t${tier}-weapon.svg`);
+                    this.base = new SpriteEntity_1.default(`./pet-carl-t${tier}-base.svg`);
+                    this.weapon = new SpriteEntity_1.default(`./pet-carl-t${tier}-weapon.svg`);
                     this.weapon.setAnchor(0.5, 1);
                     this.weaponUpdateFunc = this.updateSwingingWeapon(300, 100);
                 }
                 else if (tick.model.indexOf('PetMiner') > -1) {
                     var tier = tick.tier;
-                    this.base = new SpriteEntity_1.default(`./zombs-server-spots/pet-miner-t${tier}-base.svg`);
-                    this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/pet-miner-t${tier}-weapon.svg`);
+                    this.base = new SpriteEntity_1.default(`./pet-miner-t${tier}-base.svg`);
+                    this.weapon = new SpriteEntity_1.default(`./pet-miner-t${tier}-weapon.svg`);
                     this.weapon.setAnchor(0.5, 1);
                     this.weaponUpdateFunc = this.updateSwingingWeapon(300, 100);
                 }
@@ -43170,7 +43170,7 @@ var Game =
             __extends(PlayerModel, _super);
             function PlayerModel() {
                 var _this = _super.call(this) || this;
-                //_this.base = new SpriteEntity_1.default('./zombs-server-spots/player-base.svg');
+                //_this.base = new SpriteEntity_1.default('./player-base.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.shieldBar = new ShieldBar_1.default();
                 //_this.nameEntity = new TextEntity_1.default('[Unknown]', 'Hammersmith One', 20);
@@ -43249,20 +43249,20 @@ var Game =
                 switch (tick.weaponName) {
                     case 'Pickaxe':
                         var pickaxe;
-                        pickaxe = new SpriteEntity_1.default(`./zombs-server-spots/player-pickaxe-t${w1}.svg`);
+                        pickaxe = new SpriteEntity_1.default(`./player-pickaxe-t${w1}.svg`);
                         pickaxe.setAnchor(0.5, 1);
                         this.weapon = pickaxe;
                         this.weaponUpdateFunc = this.updateSwingingWeapon(250, 100);
                         break;
                     case 'Spear':
-                        var spear = new SpriteEntity_1.default(`./zombs-server-spots/player-spear-t${w1}.svg`);
+                        var spear = new SpriteEntity_1.default(`./player-spear-t${w1}.svg`);
                         spear.setAnchor(0.5, 1);
                         this.weapon = spear;
                         this.weaponUpdateFunc = this.updateSwingingWeapon(250, 100);
                         break;
                     case 'Bow':
-                        var bow = new SpriteEntity_1.default(`./zombs-server-spots/player-bow-t${w1}.svg`);
-                        var bowHands = new SpriteEntity_1.default(`./zombs-server-spots/player-bow-t${w1}-hands.svg`);
+                        var bow = new SpriteEntity_1.default(`./player-bow-t${w1}.svg`);
+                        var bowHands = new SpriteEntity_1.default(`./player-bow-t${w1}-hands.svg`);
                         bowHands.setAnchor(0.5, 1);
                         bow.addAttachment(bowHands);
                         bow.setAnchor(0.5, 1);
@@ -43270,8 +43270,8 @@ var Game =
                         this.weaponUpdateFunc = this.updateBowWeapon(500, 250);
                         break;
                     case 'Bomb':
-                        var bomb = new SpriteEntity_1.default(`./zombs-server-spots/player-bomb-t${w1}.svg`);
-                        var bombHands = new SpriteEntity_1.default(`./zombs-server-spots/player-bomb-hands.svg`);
+                        var bomb = new SpriteEntity_1.default(`./player-bomb-t${w1}.svg`);
+                        var bombHands = new SpriteEntity_1.default(`./player-bomb-hands.svg`);
                         bombHands.setAnchor(0.5, 1);
                         bomb.addAttachment(bombHands);
                         bomb.setAnchor(0.5, 1);
@@ -43280,11 +43280,11 @@ var Game =
                         break;
                     case "Crossbow":
                         //var pickaxe;
-                        //pickaxe = new SpriteEntity_1.default('./zombs-server-spots/zombie-boss-t1-weapon.svg');
+                        //pickaxe = new SpriteEntity_1.default('./zombie-boss-t1-weapon.svg');
                         //pickaxe.setAnchor(0.5, 1);
                         //this.weapon = pickaxe;
                         //this.weaponUpdateFunc = this.updateSwingingWeapon(250, 100);
-                        var bomb = new SpriteEntity_1.default(`./zombs-server-spots/player-bow-t6.svg`);
+                        var bomb = new SpriteEntity_1.default(`./player-bow-t6.svg`);
                         bomb.setAnchor(0.5, 1);
                         this.weapon = bomb;
                         this.weaponUpdateFunc = this.updateSwingingWeapon(250, 100);
@@ -43299,7 +43299,7 @@ var Game =
                 this.removeAttachment(this.hat);
                 switch (tick.hatName) {
                     case 'HatHorns':
-                        var hat = new SpriteEntity_1.default('./zombs-server-spots/hat-horns-base.svg');
+                        var hat = new SpriteEntity_1.default('./hat-horns-base.svg');
                         this.hat = hat;
                         break;
                     default:
@@ -46312,7 +46312,7 @@ var Game =
             __extends(ProjectileArrowModel, _super);
             function ProjectileArrowModel() {
                 var _this = _super.call(this) || this;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/arrow-tower-projectile.svg');
+                _this.base = new SpriteEntity_1.default('./arrow-tower-projectile.svg');
                 _this.addAttachment(_this.base);
                 return _this;
             }
@@ -46343,7 +46343,7 @@ var Game =
             __extends(ProjectileBombModel, _super);
             function ProjectileBombModel() {
                 var _this = _super.call(this) || this;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/bomb-tower-projectile.svg');
+                _this.base = new SpriteEntity_1.default('./bomb-tower-projectile.svg');
                 _this.addAttachment(_this.base);
                 return _this;
             }
@@ -46374,7 +46374,7 @@ var Game =
             __extends(ProjectileCannonModel, _super);
             function ProjectileCannonModel() {
                 var _this = _super.call(this) || this;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/cannon-tower-projectile.svg');
+                _this.base = new SpriteEntity_1.default('./cannon-tower-projectile.svg');
                 _this.addAttachment(_this.base);
                 return _this;
             }
@@ -46405,7 +46405,7 @@ var Game =
             __extends(ProjectileMageModel, _super);
             function ProjectileMageModel() {
                 var _this = _super.call(this) || this;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/mage-tower-projectile.svg');
+                _this.base = new SpriteEntity_1.default('./mage-tower-projectile.svg');
                 _this.addAttachment(_this.base);
                 return _this;
             }
@@ -46545,7 +46545,7 @@ var Game =
             function SlowTrapModel() {
                 var _this = _super.call(this) || this;
                 _this.currentTier = 1;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/slow-trap-t1-base.svg');
+                _this.base = new SpriteEntity_1.default('./slow-trap-t1-base.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.healthBar.setSize(35, 10);
                 //_this.healthBar.setPivotPoint(35 / 2, -8);
@@ -46579,7 +46579,7 @@ var Game =
                     case 6:
                     case 7:
                     case 8:
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/slow-trap-t${this.currentTier}-base.svg`);
+                        this.base = new SpriteEntity_1.default(`./slow-trap-t${this.currentTier}-base.svg`);
                         break;
                     default:
                         throw new Error('Unknown tier encountered for slow trap: ' + this.currentTier);
@@ -46656,7 +46656,7 @@ var Game =
             function WallModel() {
                 var _this = _super.call(this) || this;
                 _this.currentTier = 1;
-                _this.base = new SpriteEntity_1.default('./zombs-server-spots/wall-t1-base.svg');
+                _this.base = new SpriteEntity_1.default('./wall-t1-base.svg');
                 //_this.healthBar = new HealthBar_1.default();
                 //_this.healthBar.setSize(35, 10);
                 //_this.healthBar.setPivotPoint(35 / 2, -8);
@@ -46689,7 +46689,7 @@ var Game =
                     case 6:
                     case 7:
                     case 8:
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/wall-t${this.currentTier}-base.svg`);
+                        this.base = new SpriteEntity_1.default(`./wall-t${this.currentTier}-base.svg`);
                         break;
                     default:
                         throw new Error('Unknown tier encountered for wall: ' + this.currentTier);
@@ -46753,8 +46753,8 @@ var Game =
                     throw new Error('Invalid boss zombie tier received: ' + tick.model);
                 }
                 tier = 1;
-                this.base = new SpriteEntity_1.default('./zombs-server-spots/zombie-boss-t1-base.svg');
-                this.weapon = new SpriteEntity_1.default('./zombs-server-spots/zombie-boss-t1-weapon.svg');
+                this.base = new SpriteEntity_1.default('./zombie-boss-t1-base.svg');
+                this.weapon = new SpriteEntity_1.default('./zombie-boss-t1-weapon.svg');
                 this.weapon.setAnchor(0.5, 1);
                 this.weaponUpdateFunc = this.updateSwingingWeapon(500, 60);
                 this.addAttachment(this.base, 2);
@@ -46811,8 +46811,8 @@ var Game =
                         throw new Error('Invalid green zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-green-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-green-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-green-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-green-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -46840,8 +46840,8 @@ var Game =
                         throw new Error('Invalid blue zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-blue-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-blue-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-blue-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-blue-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -46869,8 +46869,8 @@ var Game =
                         throw new Error('Invalid red zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-red-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-red-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-red-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-red-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -46898,8 +46898,8 @@ var Game =
                         throw new Error('Invalid yellow zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-yellow-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-yellow-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-yellow-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-yellow-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -46927,8 +46927,8 @@ var Game =
                         throw new Error('Invalid purple zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-purple-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-purple-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-purple-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-purple-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -46956,8 +46956,8 @@ var Game =
                         throw new Error('Invalid orange zombie tier received: ' + tick.model);
                     }
                     if (!document.disableZombieSprite) {
-                        this.base = new SpriteEntity_1.default(`./zombs-server-spots/zombie-orange-t${tier}-base.svg`);
-                        this.weapon = new SpriteEntity_1.default(`./zombs-server-spots/zombie-orange-t${tier}-weapon.svg`);
+                        this.base = new SpriteEntity_1.default(`./zombie-orange-t${tier}-base.svg`);
+                        this.weapon = new SpriteEntity_1.default(`./zombie-orange-t${tier}-weapon.svg`);
                     } else {
                         this.base = new SpriteEntity_1.default(`./asset`);
                         this.weapon = new SpriteEntity_1.default(`./asset`);
@@ -47515,7 +47515,7 @@ var Game =
                     "height": 3
                 },
                 "args": {
-                    "name": "./zombs-server-spots/entities-stone.svg"
+                    "name": "./entities-stone.svg"
                 }
             },
             "Tree": {
@@ -47525,7 +47525,7 @@ var Game =
                     "height": 4
                 },
                 "args": {
-                    "name": "./zombs-server-spots/entities-tree.svg"
+                    "name": "./entities-tree.svg"
                 }
             },
             "Wall": {
@@ -60302,19 +60302,19 @@ var Game =
                 _this.steps = {
                     '1': {
                         message: 'Start off by gathering some resources. Collect <strong>10 wood and stone</strong> using <strong>WASD</strong> keys and harvesting with <strong>Left Click</strong>.',
-                        icon: './zombs-server-spots/entities-gold-mine.svg'
+                        icon: './entities-gold-mine.svg'
                     },
                     '2': {
                         message: 'Now you\'re ready to place down your <strong>Gold Stash</strong> &mdash; once you establish your base <strong>zombies will start spawning each night</strong>.',
-                        icon: './zombs-server-spots/entities-gold-stash.svg'
+                        icon: './entities-gold-stash.svg'
                     },
                     '3': {
                         message: 'You\'re ready to start building your defenses! Start by using the <strong>5 wood</strong> you gathered earlier to place an <strong>Arrow Tower</strong> from the toolbar below.',
-                        icon: './zombs-server-spots/entities-arrow-tower.svg'
+                        icon: './entities-arrow-tower.svg'
                     },
                     '4': {
                         message: 'Now you\'re protected you should start generating gold. Do this by building a <strong>Gold Mine</strong> from the toolbar &mdash; this will passively give your entire party gold.',
-                        icon: './zombs-server-spots/entities-gold-mine.svg'
+                        icon: './entities-gold-mine.svg'
                     }
                 };
                 Game_1.default.currentGame.network.addEnterWorldHandler(_this.onEnterWorld.bind(_this));
