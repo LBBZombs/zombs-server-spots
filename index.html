@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>something</title>
+        <script type="text/javascript">
+            window.nitroAds = window.nitroAds || {
+                createAd: function() {//window.nitroAds.queue.push(['createAd', arguments]);
+                },
+                queue: []
+            };
+        </script>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans:400,600">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@ZOMBSio">
+        <meta name="og:title" content="ZOMBS.io | Build. Defend. Survive.">
+        <meta name="og:description" content="Play ZOMBS.io - a new Zombie tower defense game. Build your base and defend it against zombies at night!">
+    </head>
+    <body>
+        <div id="hud-intro" class="hud-intro">
+            <div class="hud-intro-wrapper">
+                <h1>
+                    ZOMBS<small>.io</small>
+                </h1>
+                <h2>Build. Defend. Survive.</h2>
+                <div class="hud-intro-main">
+                    <div class="hud-intro-left">
+                        <div class="ad-unit ad-unit-medrec ad-unit-medrec-atf" style="margin:0 0 20px;">
+                            <div id="ad-medrec-1"></div>
+                            <script type="text/javascript">
+                                window.nitroAds.createAd('ad-medrec-1', {
+                                    refreshLimit: 10,
+                                    refreshTime: 30,
+                                    report: {
+                                        enabled: true,
+                                        wording: 'Report Ad',
+                                        position: 'fixed-bottom-left'
+                                    },
+                                    sizes: [[300, 250]]
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <div class="hud-intro-form">
+                        <input type="text" class="hud-intro-name" maxlength="29" placeholder="Your nickname...">
+                        <select class="hud-intro-server">
+                            <optgroup label="US East">
+                                <option value="v1001">US East #1 - v1001</option>
+                                <option value="v1002">US East #2 - v1002</option>
+                                <option value="v1003">US East #3 - v1003</option>
+                                <option value="v1004">US East #4 - v1004</option>
+                                <option value="v1005">US East #5 - v1005</option>
+                                <option value="v1006">US East #6 - v1006</option>
+                                <option value="v1007">US East #7 - v1007</option>
+                                <option value="v1008">US East #8 - v1008</option>
+                            </optgroup>
+                            <optgroup label="US West">
+                                <option value="v2001">US West #1 - v2001</option>
+                                <option value="v2002">US West #2 - v2002</option>
+                                <option value="v2003">US West #3 - v2003</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                <option value="v5001" selected>Europe #1 - v5001</option>
+                                <option value="v5002">Europe #2 - v5002</option>
+                                <option value="v5003">Europe #3 - v5003</option>
+                                <option value="v5004">Europe #4 - v5004</option>
+                                <option value="v5005">Europe #5 - v5005</option>
+                                <option value="v5006">Europe #6 - v5006</option>
+                                <option value="v5007">Europe #7 - v5007</option>
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option value="v3001">Asia #1 - v3001</option>
+                            </optgroup>
+                            <optgroup label="Australia">
+                                <option value="v4001">Australia #1 - v4001</option>
+                                <option value="v4002">Australia #2 - v4002</option>
+                            </optgroup>
+                        </select>
+                        <button type="submit" class="btn btn-green hud-intro-play">Play</button>
+                        <span class="hud-intro-error"></span>
+                        <label>
+                            <input type="checkbox" class="hud-intro-canvas" name="canvas" value="true">
+                            <span>Disable GPU Acceleration</span>
+                        </label>
+                    </div>
+                    <div class="hud-intro-guide">
+                        <div class="hud-intro-guide-changelog">
+                            <h3>Essentials</h3>
+                            <ul class="hud-intro-guide-hints">
+                                <li>
+                                    <span class="hud-intro-guide-icon hud-intro-guide-base"></span>
+                                    Build a gold stash to establish your base and start defending.
+                                </li>
+                                <li>
+                                    <span class="hud-intro-guide-icon hud-intro-guide-resources"></span>
+                                    Collect resources with your pickaxe to upgrade your base.
+                                </li>
+                                <li>
+                                    <span class="hud-intro-guide-icon hud-intro-guide-towers"></span>
+                                    Build towers to defend against zombies.
+                                </li>
+                                <li>
+                                    <span class="hud-intro-guide-icon hud-intro-guide-gold-mine"></span>
+                                    Build gold mines to generate gold and upgrade your buildings.
+                                </li>
+                                <li>
+                                    <span class="hud-intro-guide-icon hud-intro-guide-shop"></span>
+                                    Use the Shop to buy weapons and upgrade them.
+                                </li>
+                            </ul>
+                            <h3>How to Play</h3>
+                            <p>just learn it from yt.</p>
+                            <h3>Controls</h3>
+                            <ul class="hud-intro-guide-controls">
+                                <li>
+                                    Movement: <strong>W, A, S, D</strong>
+                                </li>
+                                <li>
+                                    Turn: <strong>Mouse</strong>
+                                </li>
+                                <li>
+                                    Gather/Attack/Build: <strong>Left-Click</strong>
+                                </li>
+                                <li>
+                                    Unselect: <strong>Esc or Right-Click</strong>
+                                </li>
+                                <li>
+                                    Auto-Attack: <strong>Space</strong>
+                                </li>
+                                <li>
+                                    Quick Upgrade: <strong>E</strong>
+                                </li>
+                                <li>
+                                    Quick Sell: <strong>T</strong>
+                                </li>
+                                <li>
+                                    Quick Heal: <strong>F</strong>
+                                </li>
+                                <li>
+                                    Upgrade All: <strong>Hold Shift or Alt</strong>
+                                </li>
+                                <li>
+                                    Cycle Weapons: <strong>Q</strong>
+                                </li>
+                                <li>
+                                    Shop Menu: <strong>B</strong>
+                                </li>
+                                <li>
+                                    Party Menu: <strong>P</strong>
+                                </li>
+                                <li>
+                                    Other: <strong>Coming Soon...</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ad-unit ad-unit-leaderboard ad-unit-leaderboard-atf">
+                        <div id="ad-leaderboard-1"></div>
+                    </div>
+                </div>
+                <div class="hud-intro-corner-top-left">
+                    <div class="hud-intro-youtuber"></div>
+                </div>
+                <div class="hud-intro-corner-top-right">
+                    <div class="hud-intro-leaderboard">
+                        <h3>
+                            Top 
+                            <select name="category" class="hud-intro-leaderboard-category">
+                                <option value="wave">Wave</option>
+                                <option value="score">Score</option>
+                            </select>
+                            For 
+                            <select name="time" class="hud-intro-leaderboard-time">
+                                <option value="24h">Today</option>
+                                <option value="7d">This Week</option>
+                                <option value="all">All Time</option>
+                            </select>
+                        </h3>
+                    </div>
+                </div>
+                <div class="hud-intro-corner-bottom-left">
+                    <div class="hud-intro-social">
+                        <p>Active Zombs.io Community</p>
+                        <a href="https://discord.gg/fatUvvCaeH" target="_blank" class="btn btn-discord hud-name-social-discord"></a>
+                    </div>
+                </div>
+                <div class="hud-intro-corner-bottom-right">
+                    <div class="hud-intro-more-games"></div>
+                </div>
+            </div>
+            <script src="app.js"></script>
+            <script src="serverspots.js"></script>
+            <script src="senddata.js"></script>
+            <script>
+                var syncinit = () => {};
+                var isAllowedToGrabLb = false;
+            var game = new Game({
+                stage: 'prod',
+                servers: {
+                    "v1001": {
+                        "id": "v1001",
+                        "region": "US East",
+                        "name": "US East #1",
+                        "hostname": "zombs-2d4c041c-0.eggs.gg",
+                        "ipAddress": "45.76.4.28",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1002": {
+                        "id": "v1002",
+                        "region": "US East",
+                        "name": "US East #2",
+                        "hostname": "zombs-2d4dcbcc-0.eggs.gg",
+                        "ipAddress": "45.77.203.204",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1003": {
+                        "id": "v1003",
+                        "region": "US East",
+                        "name": "US East #3",
+                        "hostname": "zombs-2d4dc896-0.eggs.gg",
+                        "ipAddress": "45.77.200.150",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1004": {
+                        "id": "v1004",
+                        "region": "US East",
+                        "name": "US East #4",
+                        "hostname": "zombs-689ce185-0.eggs.gg",
+                        "ipAddress": "104.156.225.133",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1005": {
+                        "id": "v1005",
+                        "region": "US East",
+                        "name": "US East #5",
+                        "hostname": "zombs-2d4d95e0-0.eggs.gg",
+                        "ipAddress": "45.77.149.224",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1006": {
+                        "id": "v1006",
+                        "region": "US East",
+                        "name": "US East #6",
+                        "hostname": "zombs-adc77b4d-0.eggs.gg",
+                        "ipAddress": "173.199.123.77",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1007": {
+                        "id": "v1007",
+                        "region": "US East",
+                        "name": "US East #7",
+                        "hostname": "zombs-2d4ca620-0.eggs.gg",
+                        "ipAddress": "45.76.166.32",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v1008": {
+                        "id": "v1008",
+                        "region": "US East",
+                        "name": "US East #8",
+                        "hostname": "zombs-951c3ac1-0.eggs.gg",
+                        "ipAddress": "149.28.58.193",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v2001": {
+                        "id": "v2001",
+                        "region": "US West",
+                        "name": "US West #1",
+                        "hostname": "zombs-951c5784-0.eggs.gg",
+                        "ipAddress": "149.28.87.132",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v2002": {
+                        "id": "v2002",
+                        "region": "US West",
+                        "name": "US West #2",
+                        "hostname": "zombs-2d4c44d2-0.eggs.gg",
+                        "ipAddress": "45.76.68.210",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v2003": {
+                        "id": "v2003",
+                        "region": "US West",
+                        "name": "US West #3",
+                        "hostname": "zombs-6c3ddbf4-0.eggs.gg",
+                        "ipAddress": "108.61.219.244",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5001": {
+                        "id": "v5001",
+                        "region": "Europe",
+                        "name": "Europe #1",
+                        "hostname": "zombs-50f01305-0.eggs.gg",
+                        "ipAddress": "80.240.19.5",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5002": {
+                        "id": "v5002",
+                        "region": "Europe",
+                        "name": "Europe #2",
+                        "hostname": "zombs-2d4d3541-0.eggs.gg",
+                        "ipAddress": "45.77.53.65",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5003": {
+                        "id": "v5003",
+                        "region": "Europe",
+                        "name": "Europe #3",
+                        "hostname": "zombs-5fb3a70c-0.eggs.gg",
+                        "ipAddress": "95.179.167.12",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5004": {
+                        "id": "v5004",
+                        "region": "Europe",
+                        "name": "Europe #4",
+                        "hostname": "zombs-5fb3a361-0.eggs.gg",
+                        "ipAddress": "95.179.163.97",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5005": {
+                        "id": "v5005",
+                        "region": "Europe",
+                        "name": "Europe #5",
+                        "hostname": "zombs-88f4532c-0.eggs.gg",
+                        "ipAddress": "136.244.83.44",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5006": {
+                        "id": "v5006",
+                        "region": "Europe",
+                        "name": "Europe #6",
+                        "hostname": "zombs-2d209ed2-0.eggs.gg",
+                        "ipAddress": "45.32.158.210",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v5007": {
+                        "id": "v5007",
+                        "region": "Europe",
+                        "name": "Europe #7",
+                        "hostname": "zombs-5fb3a911-0.eggs.gg",
+                        "ipAddress": "95.179.169.17",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v3001": {
+                        "id": "v3001",
+                        "region": "Asia",
+                        "name": "Asia #1",
+                        "hostname": "zombs-2d4df94b-0.eggs.gg",
+                        "ipAddress": "45.77.249.75",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": true
+                    },
+                    "v4001": {
+                        "id": "v4001",
+                        "region": "Australia",
+                        "name": "Australia #1",
+                        "hostname": "zombs-951cb6a1-0.eggs.gg",
+                        "ipAddress": "149.28.182.161",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    },
+                    "v4002": {
+                        "id": "v4002",
+                        "region": "Australia",
+                        "name": "Australia #2",
+                        "hostname": "zombs-951ca5c7-0.eggs.gg",
+                        "ipAddress": "149.28.165.199",
+                        "port": 443,
+                        "fallbackPort": 443,
+                        "selected": false
+                    }
+                },
+                userGroup: 3
+            });
+
+                game.init(function() {
+
+                    game.debug.init();
+                    game.run();
+                    dimension = 1;
+
+                    const onWindowResize = ()=>{
+                        const renderer = Game.currentGame.renderer;
+                        let canvasWidth = window.innerWidth * window.devicePixelRatio;
+                        let canvasHeight = window.innerHeight * window.devicePixelRatio;
+                        let ratio = Math.max(canvasWidth / (1920 * dimension), canvasHeight / (1080 * dimension));
+                        renderer.scale = ratio;
+                        renderer.entities.setScale(ratio);
+                        renderer.ui.setScale(ratio);
+                        renderer.renderer.resize(canvasWidth, canvasHeight);
+                        renderer.viewport.width = renderer.renderer.width / renderer.scale + 2 * renderer.viewportPadding;
+                        renderer.viewport.height = renderer.renderer.height / renderer.scale + 2 * renderer.viewportPadding;
+                    }
+
+                    onWindowResize();
+
+                    window.onresize = onWindowResize;
+
+                    window.onwheel = e=>{
+                        if (e.deltaY > 0) {
+                            dimension = Math.min(50, dimension + 1);
+                            onWindowResize();
+                        } else if (e.deltaY < 0) {
+                            dimension = Math.max(1, dimension - 1);
+                            onWindowResize();
+                        }
+                    }
+                });
+            </script>
+    </body>
+</html>
