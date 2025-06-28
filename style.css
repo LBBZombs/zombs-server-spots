@@ -324,7 +324,7 @@ a:hover {
 .hud-intro .hud-intro-tree {
     display: block;
     position: absolute;
-    background: url('https://cdn.glitch.me/6b6a3e65-ae99-48bc-bf4e-dc9206a02b74%2Fentities-tree.svg?v=1634327003825') no-repeat;
+    background: url('/zombs-server-spots/entities-tree.svg') no-repeat;
     width: 192px;
     height: 192px;
     z-index: -1;
@@ -333,7 +333,7 @@ a:hover {
 .hud-intro .hud-intro-stone {
     display: block;
     position: absolute;
-    background: url('https://cdn.glitch.me/6b6a3e65-ae99-48bc-bf4e-dc9206a02b74%2Fentities-stone.svg?v=1634327003403') no-repeat;
+    background: url('/zombs-server-spots/entities-stone.svg') no-repeat;
     width: 144px;
     height: 144px;
     z-index: -1;
@@ -581,23 +581,23 @@ a:hover {
 }
 
 .hud-intro .hud-intro-guide .hud-intro-guide-hints li .hud-intro-guide-base {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-stash%5B1%5D.svg?v=1611216673526');
+    background-image: url('/zombs-server-spots/entities-gold-stash.svg');
 }
 
 .hud-intro .hud-intro-guide .hud-intro-guide-hints li .hud-intro-guide-resources {
-    background-image: url('https://cdn.glitch.me/6b6a3e65-ae99-48bc-bf4e-dc9206a02b74%2Fentities-tree.svg?v=1634327003825');
+    background-image: url('/zombs-server-spots/entities-tree.svg');
 }
 
 .hud-intro .hud-intro-guide .hud-intro-guide-hints li .hud-intro-guide-towers {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-arrow-tower%5B1%5D.svg?v=1611216580358');
+    background-image: url('/zombs-server-spots/entities-arrow-tower.svg');
 }
 
 .hud-intro .hud-intro-guide .hud-intro-guide-hints li .hud-intro-guide-gold-mine {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-mine%5B1%5D.svg?v=1611216653425');
+    background-image: url('/zombs-server-spots/entities-gold-mine.svg');
 }
 
 .hud-intro .hud-intro-guide .hud-intro-guide-hints li .hud-intro-guide-shop {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Ficons-shop%5B1%5D.svg?v=1611247073575');
+    background-image: url('/zombs-server-spots/icons-shop.svg');
 }
 
 .hud-intro .hud-intro-guide p {
@@ -692,7 +692,7 @@ a:hover {
 }
 
 .hud-intro .hud-intro-youtuber a {
-    background: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fyoutube-icon%5B1%5D.png?v=1611247565941') no-repeat;
+    background: url('/zombs-server-spots/youtube-icon.png') no-repeat;
     background-position: left center;
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
@@ -796,11 +796,11 @@ a:hover {
 }
 
 .hud-intro .hud-intro-social .btn-discord, .hud-respawn .hud-respawn-social .btn-discord {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fdiscord-icon%5B1%5D.png?v=1611247385406');
+    background-image: url('/zombs-server-spots/discord-icon.png');
 }
 
 .hud-intro .hud-intro-social .btn-youtube, .hud-respawn .hud-respawn-social .btn-youtube {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fyoutube-icon-btn%5B1%5D.png?v=1611247479045');
+    background-image: url('/zombs-server-spots/youtube-icon-btn.png');
 }
 
 .hud-intro .hud-intro-corner-bottom-right {
@@ -1095,7 +1095,7 @@ main.privacy strong {
     position: relative;
     width: 100%;
     height: 16px;
-    background: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fui-time-bar%5B1%5D.png?v=1610798287621') repeat-x;
+    background: url('/zombs-server-spots/ui-time-bar.png') repeat-x;
     border-radius: 3px;
     overflow: hidden;
 }
@@ -2302,23 +2302,23 @@ main.privacy strong {
 }
 
 .hud-menu-icons .hud-menu-icon[data-type=Shop]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Ficons-shop%5B1%5D.svg?v=1611247073575');
+    background-image: url('/zombs-server-spots/icons-shop.svg');
 }
 
 .hud-menu-icons .hud-menu-icon[data-type=Party]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Ficons-party%5B1%5D.svg?v=1611247046547');
+    background-image: url('/zombs-server-spots/icons-party.svg');
 }
 
 .hud-menu-icons .hud-menu-icon[data-type=Settings]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Ficons-settings%5B1%5D.svg?v=1611247065639');
+    background-image: url('/zombs-server-spots/icons-settings.svg');
 }
 
 .hud-menu-icons .hud-menu-icon[data-type=FPS]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2F67.png?v=1611819437507');
+    background-image: url('/zombs-server-spots/67.png');
 }
 
 .hud-menu-icons .hud-menu-icon[data-type=Scripts]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fa33ea7f530f4b720a3a4c050594842fa.svg?v=1611861933934');
+    background-image: url('/zombs-server-spots/a33ea7f530f4b720a3a4c050594842fa.svg');
 }
 
 /**
@@ -2435,15 +2435,15 @@ main.privacy strong {
 }
 
 .hud-spell-icons .hud-spell-icon[data-type=HealTowersSpell]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-heal-towers-spell%5B1%5D.svg?v=1611216895862');
+    background-image: url('/zombs-server-spots/inventory-heal-towers-spell.svg');
 }
 
 .hud-spell-icons .hud-spell-icon[data-type=TimeoutItem]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-timeout%5B1%5D.svg?v=1611216944842');
+    background-image: url('/zombs-server-spots/inventory-timeout.svg');
 }
 
 .hud-spell-icons .hud-spell-icon[data-type=TimeoutNowItem]::before {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-timeout%5B1%5D.svg?v=1611216944842');
+    background-image: url('/zombs-server-spots/inventory-timeout.svg');
 }
 
 /**
@@ -3666,23 +3666,23 @@ main.privacy strong {
 }
 
 .hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-base {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-stash%5B1%5D.svg?v=1611216673526');
+    background-image: url('/zombs-server-spots/entities-gold-stash.svg');
 }
 
 .hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-resources {
-    background-image: url('https://cdn.glitch.me/6b6a3e65-ae99-48bc-bf4e-dc9206a02b74%2Fentities-tree.svg?v=1634327003825');
+    background-image: url('/zombs-server-spots/entities-tree.svg');
 }
 
 .hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-towers {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-arrow-tower%5B1%5D.svg?v=1611216580358');
+    background-image: url('/zombs-server-spots/entities-arrow-tower.svg');
 }
 
 .hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-gold-mine {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-mine%5B1%5D.svg?v=1611216653425');
+    background-image: url('/zombs-server-spots/entities-gold-mine.svg');
 }
 
 .hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-shop {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Ficons-shop%5B1%5D.svg?v=1611247073575');
+    background-image: url('/zombs-server-spots/icons-shop.svg');
 }
 
 /**
@@ -3862,293 +3862,293 @@ main.privacy strong {
  */
 
 [data-item=Crossbow][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fa33ea7f530f4b720a3a4c050594842fa.svg');
+    background-image: url('/zombs-server-spots/a33ea7f530f4b720a3a4c050594842fa.svg');
 }
 
 [data-item=Crossbow][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fa33ea7f530f4b720a3a4c050594842fa.svg');
+    background-image: url('/zombs-server-spots/a33ea7f530f4b720a3a4c050594842fa.svg');
 }
 
 [data-item=Pickaxe][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t1.svg');
 }
 
 [data-item=Pickaxe][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t2.svg');
 }
 
 [data-item=Pickaxe][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t3.svg');
 }
 
 [data-item=Pickaxe][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t4.svg');
 }
 
 [data-item=Pickaxe][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t5.svg');
 }
 
 [data-item=Pickaxe][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t6.svg');
 }
 
 [data-item=Pickaxe][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pickaxe-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pickaxe-t7.svg');
 }
 
 [data-item=Spear][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t1.svg');
 }
 
 [data-item=Spear][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t2.svg');
 }
 
 [data-item=Spear][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t3.svg');
 }
 
 [data-item=Spear][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t4.svg');
 }
 
 [data-item=Spear][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t5.svg');
 }
 
 [data-item=Spear][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t6.svg');
 }
 
 [data-item=Spear][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-spear-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-spear-t7.svg');
 }
 
 [data-item=Bow][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t1.svg');
 }
 
 [data-item=Bow][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t2.svg');
 }
 
 [data-item=Bow][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t3.svg');
 }
 
 [data-item=Bow][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t4.svg');
 }
 
 [data-item=Bow][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t5.svg');
 }
 
 [data-item=Bow][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t6.svg');
 }
 
 [data-item=Bow][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bow-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bow-t7.svg');
 }
 
 [data-item=Bomb][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t1.svg');
 }
 
 [data-item=Bomb][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t2.svg');
 }
 
 [data-item=Bomb][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t3.svg');
 }
 
 [data-item=Bomb][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t4.svg');
 }
 
 [data-item=Bomb][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t5.svg');
 }
 
 [data-item=Bomb][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t6.svg');
 }
 
 [data-item=Bomb][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-bomb-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-bomb-t7.svg');
 }
 
 [data-item=ZombieShield][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='8']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='9']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=ZombieShield][data-tier='10']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-shield-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-shield-t1.svg');
 }
 
 [data-item=HatHorns]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-hat-horns%5B1%5D.svg?v=1611216860544');
+    background-image: url('/zombs-server-spots/inventory-hat-horns.svg');
 }
 
 [data-item=PetCARL][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t1.svg');
 }
 
 [data-item=PetCARL][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t2.svg');
 }
 
 [data-item=PetCARL][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t3.svg');
 }
 
 [data-item=PetCARL][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t4.svg');
 }
 
 [data-item=PetCARL][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t5.svg');
 }
 
 [data-item=PetCARL][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t6.svg');
 }
 
 [data-item=PetCARL][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t7.svg');
 }
 
 [data-item=PetCARL][data-tier='8']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-carl-t8[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-carl-t8.svg');
 }
 
 [data-item=PetMiner][data-tier='1']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t1[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t1.svg');
 }
 
 [data-item=PetMiner][data-tier='2']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t2[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t2.svg');
 }
 
 [data-item=PetMiner][data-tier='3']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t3[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t3.svg');
 }
 
 [data-item=PetMiner][data-tier='4']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t4[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t4.svg');
 }
 
 [data-item=PetMiner][data-tier='5']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t5[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t5.svg');
 }
 
 [data-item=PetMiner][data-tier='6']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t6[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t6.svg');
 }
 
 [data-item=PetMiner][data-tier='7']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t7[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t7.svg');
 }
 
 [data-item=PetMiner][data-tier='8']::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-miner-t8[1].svg');
+    background-image: url('/zombs-server-spots/inventory-pet-miner-t8.svg');
 }
 
 [data-item=HealthPotion]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-health-potion%5B1%5D.svg?v=1611216883128');
+    background-image: url('/zombs-server-spots/inventory-health-potion.svg');
 }
 
 [data-item=PetHealthPotion]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-pet-health-potion%5B1%5D.svg?v=1611217014517');
+    background-image: url('/zombs-server-spots/inventory-pet-health-potion.svg');
 }
 
 [data-item=PetWhistle]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-whistle%5B1%5D.svg?v=1611216959056');
+    background-image: url('/zombs-server-spots/inventory-whistle.svg');
 }
 
 [data-item=Pause]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-timeout%5B1%5D.svg?v=1611216944842');
+    background-image: url('/zombs-server-spots/inventory-timeout.svg');
 }
 
 [data-item=Invulnerable]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Finventory-invulnerable%5B1%5D.svg?v=1611216911944');
+    background-image: url('/zombs-server-spots/inventory-invulnerable.svg');
 }
 
 [data-building=Wall]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-wall%5B1%5D.svg?v=1611256339441');
+    background-image: url('/zombs-server-spots/entities-wall.svg');
 }
 
 [data-building=Door]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-door%5B1%5D.svg?v=1611216629059');
+    background-image: url('/zombs-server-spots/entities-door.svg');
 }
 
 [data-building=SlowTrap]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-slow-trap%5B1%5D.svg?v=1611216771948');
+    background-image: url('/zombs-server-spots/entities-slow-trap.svg');
 }
 
 [data-building=ArrowTower]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-arrow-tower%5B1%5D.svg?v=1611216580358');
+    background-image: url('/zombs-server-spots/entities-arrow-tower.svg');
 }
 
 [data-building=CannonTower]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-cannon-tower%5B1%5D.svg?v=1611216612987');
+    background-image: url('/zombs-server-spots/entities-cannon-tower.svg');
 }
 
 [data-building=MeleeTower]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-melee-tower%5B1%5D.svg?v=1611216753444');
+    background-image: url('/zombs-server-spots/entities-melee-tower.svg');
 }
 
 [data-building=BombTower]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-bomb-tower%5B1%5D.svg?v=1611216596016');
+    background-image: url('/zombs-server-spots/entities-bomb-tower.svg');
 }
 
 [data-building=MagicTower]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-mage-tower%5B1%5D.svg?v=1611216724964');
+    background-image: url('/zombs-server-spots/entities-mage-tower.svg');
 }
 
 [data-building=GoldMine]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-mine%5B1%5D.svg?v=1611216653425');
+    background-image: url('/zombs-server-spots/entities-gold-mine.svg');
 }
 
 [data-building=Harvester]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-harvester%5B1%5D.svg?v=1611216704489');
+    background-image: url('/zombs-server-spots/entities-harvester.svg');
 }
 
 [data-building=GoldStash]::after {
-    background-image: url('https://cdn.glitch.com/65698807-c047-4e77-bf51-7937b4cef560%2Fentities-gold-stash%5B1%5D.svg?v=1611216673526');
+    background-image: url('/zombs-server-spots/entities-gold-stash.svg');
 }
