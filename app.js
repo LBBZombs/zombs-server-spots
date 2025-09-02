@@ -49085,7 +49085,7 @@ var Game =
                 if (!data.allowed) {
                     return;
                 }
-                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1751075768000))
+                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1756824607000))
                 var tickRate = data.tickRate;
                 this.msPerTick = 1000 / tickRate;
                 this.msInThisTick = 0;
