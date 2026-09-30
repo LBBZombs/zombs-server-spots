@@ -48822,7 +48822,6 @@ var Game =
                 document.getElementsByClassName("hud-top-center")[0].innerHTML = `
                 <span style="color: white">Enable tower grouping</span>
                 <input type="checkbox" class="hud-tower-grouping" name="tg">`;
-                localStorage.walkthroughCompleted = "true";
                 document.getElementsByName("tg")[0].onclick = (e) => {
                     if (e.button === 0) {
                         document.show200x200Grid = !document.show200x200Grid;
@@ -61613,3 +61612,5 @@ var Game =
         exports.default = UiMenuScripts;
     })
 ]);
+
+localStorage.walkthroughCompleted = "true";
