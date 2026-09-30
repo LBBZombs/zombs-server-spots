@@ -48818,6 +48818,28 @@ var Game =
                 this.msPerTick = 1000 / data.tickRate;
                 this.inWorld = true;
                 this.myUid = data.uid;
+                let grassTexture;
+                document.getElementsByClassName("hud-top-center")[0].innerHTML = `
+                <span style="color: white">Enable tower grouping</span>
+                <input type="checkbox" class="hud-tower-grouping" name="tg">`;
+                localStorage.walkthroughCompleted = "true";
+                document.getElementsByName("tg")[0].onclick = (e) => {
+                    if (e.button === 0) {
+                        document.show200x200Grid = !document.show200x200Grid;
+                        if (document.show200x200Grid) {
+                            grassTexture = new PIXI.extras.TilingSprite(PIXI.Texture.from("map_1.png"));
+                            grassTexture.x = 0;
+                            grassTexture.y = 0;
+                            grassTexture.width = this.width;
+                            grassTexture.height = this.height;
+                            grassTexture.anchor.x = 0;
+                            grassTexture.anchor.y = 0;
+                            game.world.renderer.entities.node.addChild(grassTexture);
+                        } else {
+                            grassTexture.destroy();
+                        }
+                    }
+                }    
             };
             World.prototype.onEntityUpdate = function (data) {
                 for (var uid in this.entities) {
@@ -49085,7 +49107,7 @@ var Game =
                 if (!data.allowed) {
                     return;
                 }
-                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1785266400000))
+                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1790777400000), 3000);
                 var tickRate = data.tickRate;
                 this.msPerTick = 1000 / tickRate;
                 this.msInThisTick = 0;
