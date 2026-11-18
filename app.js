@@ -49106,7 +49106,7 @@ var Game =
                 if (!data.allowed) {
                     return;
                 }
-                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1793728680000), 3000);
+                game.ui.components.PopupOverlay.showHint("Last updated " + new Date(1795037400000), 3000);
                 var tickRate = data.tickRate;
                 this.msPerTick = 1000 / tickRate;
                 this.msInThisTick = 0;
